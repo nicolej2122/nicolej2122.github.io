@@ -19,16 +19,12 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a fourth year <b>Computer Science</b> major at
-        <a href="https://www.utoronto.ca/about-u-of-t">
+        I am currently a Year 3  <b>Computer Science</b> major at the
+        <a href="https://www.comp.nus.edu.sg/">
           {" "}
-          University of Toronto
+          National University of Singapore
         </a>
-        . After graduation, I will be joining{" "}
-        <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
-        <b>Software Development Engineer</b> while undertaking a part-time
-        <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        . 
       </p>
     );
     const two = (
@@ -40,8 +36,8 @@ class About extends React.Component {
     const three = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          gazi.jarin@mail.utoronto.ca
+        <a href="mailto:nicole.joseph2122@gmail.com">
+          nicole.joseph2122@gmail.com
         </a>{" "}
         and let's talk.
       </p>
@@ -49,11 +45,11 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "Javascript ES6+",
+      "C",
       "Python",
-      "React.js",
+      "C++",
       "Java",
-      "Node.js",
+      "Flutter",
       "HTML & CSS"
     ];
 
