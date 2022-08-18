@@ -31,7 +31,7 @@ class Projects extends React.Component {
         techStack: "Flutter + Dart, Firebase, Node.js + Javascript",
         link: "https://github.com/Team-APPetite/FoodStack",
         open: "https://docs.google.com/document/d/1rlbRK2gxNLM7VrQf2PNl_nj6aiuhsDKyiJ3leHSIkTU/edit",
-        image: "/assets/foodstack.png"
+        image: "../assets/foodstack.png"
       },
       "Intern Watcher": {
         title: "intern watcher",
@@ -40,7 +40,7 @@ class Projects extends React.Component {
         techStack: "Java",
         link: "https://github.com/nicolej2122/tp",
         open: "https://ay2122s1-cs2103t-f12-2.github.io/tp/",
-        image: "/assets/internwatcher.png"
+        image: "../assets/internwatcher.png"
       }
     };
     const projects = {
