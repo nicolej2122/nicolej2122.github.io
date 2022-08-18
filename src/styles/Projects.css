@@ -46,14 +46,14 @@
 }
 
 .github-icon {
-  margin-top: 6px;
+  margin-top: 9px;
 }
 .github-icon:hover {
   color: var(--green-bright);
 }
 
 .open-icon {
-  margin-left: 10px;
+  margin-left: 13px;
 }
 
 .card-title {
@@ -65,7 +65,7 @@
 
 .card-desc {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--navy);
   font-size: 24px;
   padding-bottom: 40px;
 }
@@ -108,21 +108,21 @@
 }
 
 .carousel-caption h3 {
-  font-size: 38px;
+  font-size: 60px;
   font-weight: bold;
-  color: var(--lightest-slate);
+  color: #023E8A;
 }
 
 .carousel-caption p {
   font-family: "NTR", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 23px;
   color: var(--lightest-slate);
 }
 
 .carousel-caption p.techStack {
   font-family: "NTR", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--green-bright);
 }
