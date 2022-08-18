@@ -31,7 +31,7 @@ class About extends React.Component {
       <p>
         Outside of work, I'm interested in following the developments of
         science. I also build terrariums and love cafe-hopping.
-      </p>
+     </p>
     );
     const three = (
       <p>
@@ -42,7 +42,7 @@ class About extends React.Component {
         and let's talk.
       </p>
     );
-    const desc_items = [one, two];
+    const desc_items = [one, two, three];
 
     const tech_stack = [
       "C",
@@ -75,6 +75,7 @@ class About extends React.Component {
                 })}
               </ul>
               {[two]}
+              {[three]}
             </div>
             <div className="about-image">
               <img src={"/assets/me.png"} />
