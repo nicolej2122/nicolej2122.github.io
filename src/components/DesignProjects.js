@@ -47,7 +47,7 @@ class DesignProjects extends React.Component {
     return (
       <div id="designprojects">
         <div className="section-header ">
-          <span className="section-title">/ design-creations</span>
+        <span className="section-title">/ design-creations</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
@@ -77,7 +77,7 @@ class DesignProjects extends React.Component {
         </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
-            {Object.keys(designprojects).map((key, i) => (
+            {Object.keys(spotlightProjects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
                 <li className="projects-card">
                   <div className="card-header">
@@ -87,14 +87,14 @@ class DesignProjects extends React.Component {
                       ></FolderOpenRoundedIcon>
                     </div>
                     <ExternalLinksDesign
-                      figmaLink={designprojects[key]["link"]}
-                      openLink={designprojects[key]["open"]}
+                      figmaLink={spotlightProjects[key]["link"]}
+                      openLink={spotlightProjects[key]["open"]}
                     ></ExternalLinksDesign>
                   </div>
 
                   <div className="card-title">{key}</div>
-                  <div className="card-desc">{designprojects[key]["desc"]}</div>
-                  <div className="card-tech">{designprojects[key]["techStack"]}</div>
+                  <div className="card-desc">{spotlightProjects[key]["desc"]}</div>
+                  <div className="card-tech">{spotlightProjects[key]["techStack"]}</div>
                 </li>
               </FadeInSection>
             ))}

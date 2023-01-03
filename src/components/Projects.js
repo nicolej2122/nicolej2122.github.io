@@ -25,7 +25,7 @@ class Projects extends React.Component {
       "FoodStack": {
         title: "foodstack",
         desc:
-          "A group food-ordering app to cut down high delivery costs and skip the minimum order amount.",
+          "A group food-ordering mobile app to cut down high delivery costs and skip the minimum order amount.",
         techStack: "Flutter + Dart, Firebase, Node.js + Javascript",
         link: "https://github.com/Team-APPetite/FoodStack",
         open: "https://docs.google.com/document/d/1rlbRK2gxNLM7VrQf2PNl_nj6aiuhsDKyiJ3leHSIkTU/edit",
@@ -52,7 +52,7 @@ class Projects extends React.Component {
       "PeerPrep": {
         title: "peer prep",
         desc:
-          "A web application that helps students prepare for their technical interviews by conducting mock interviews with other peers that simulating the tech-interview environment.",
+          "A web application that helps students prepare for their technical interviews by simulating the tech-interview environment with their fellow peers.",
         techStack: "Next.js, Express.js, MongoDB, Socket.io, Docker",
         link: "https://github.com/nicolej2122/cs3219-project-ay2223s1-g17",
         open: "https://docs.google.com/document/d/1smdWonXmZ3VBk595-3SHFbVn4_DZoTBSOyEA9CHCSlk/edit?usp=sharing",
@@ -95,7 +95,7 @@ class Projects extends React.Component {
         </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
-            {Object.keys(projects).map((key, i) => (
+            {Object.keys(spotlightProjects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
                 <li className="projects-card">
                   <div className="card-header">
@@ -105,14 +105,14 @@ class Projects extends React.Component {
                       ></FolderOpenRoundedIcon>
                     </div>
                     <ExternalLinks
-                      githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
+                      githubLink={spotlightProjects[key]["link"]}
+                      openLink={spotlightProjects[key]["open"]}
                     ></ExternalLinks>
                   </div>
 
                   <div className="card-title">{key}</div>
-                  <div className="card-desc">{projects[key]["desc"]}</div>
-                  <div className="card-tech">{projects[key]["techStack"]}</div>
+                  <div className="card-desc">{spotlightProjects[key]["desc"]}</div>
+                  <div className="card-tech">{spotlightProjects[key]["techStack"]}</div>
                 </li>
               </FadeInSection>
             ))}
