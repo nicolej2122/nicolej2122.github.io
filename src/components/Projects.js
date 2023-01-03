@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
 import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
@@ -41,6 +39,24 @@ class Projects extends React.Component {
         link: "https://github.com/nicolej2122/tp",
         open: "https://ay2122s1-cs2103t-f12-2.github.io/tp/",
         image: "../assets/internwatcher.png"
+      }, 
+      "FineSpine": {
+        title: "finespine",
+        desc:
+          "An IoT system that aims to help the user maintain good posture while seated at their desk.                                                                 ",
+        techStack: "Python, Java, React, Node.js, Flask, Flutter, Bash, OpenPose",
+        link: "https://github.com/orgs/CS3237-Project/repositories",
+        open: "https://drive.google.com/file/d/1fCSQ6ct4WdPVn8x1cHCbytt1bJHFDd_6/view?usp=sharing",
+        image: "../assets/finespine.png"
+      },
+      "PeerPrep": {
+        title: "peer prep",
+        desc:
+          "A web application that helps students prepare for their technical interviews by conducting mock interviews with other peers that simulating the tech-interview environment.",
+        techStack: "Next.js, Express.js, MongoDB, Socket.io, Docker",
+        link: "https://github.com/nicolej2122/cs3219-project-ay2223s1-g17",
+        open: "https://docs.google.com/document/d/1smdWonXmZ3VBk595-3SHFbVn4_DZoTBSOyEA9CHCSlk/edit?usp=sharing",
+        image: "../assets/peerprep.png"
       }
     };
     const projects = {

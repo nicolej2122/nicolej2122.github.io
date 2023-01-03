@@ -82,9 +82,18 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    "National University of Singapore ": {
+      jobTitle: "CS3240 Teaching Assistant @",
+      duration: "JAN 2022 - PRESENT",
+      desc: [
+        "CS3240 is a UX design module that focuses on human-computer interaction issues in the design of computer systems.",
+        "Mentored 40 students and reinforced their understanding of design principles",
+        "Graded and provided feedback to  students' wireframes, prototypes and design portfolios.", 
+      ]
+    },
     "National University of Singapore": {
-      jobTitle: "Teaching Assistant @",
-      duration: "AUG 2022 - PRESENT",
+      jobTitle: "CS2100 Teaching Assistant @",
+      duration: "AUG 2022 - DEC 2022",
       desc: [
         "CS2100 is a module which covers the basics of data representation and how the different parts of a computer work.",
         "Facilitated 2 lab sessions of more than 10 students each over a semester",

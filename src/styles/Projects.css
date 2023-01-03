@@ -24,13 +24,13 @@
   position: relative;
   height: 100%;
   padding: 2rem 1.75rem;
-  background-color: var(--light-navy);
+  background-color: var(--light-peach);
   border-radius: 16px;
 }
 
 .projects-card:hover {
   transform: translateY(-7px);
-  background-color: var(--lightest-navy);
+  background-color: var(--light-peach);
 }
 
 .card-header {
@@ -42,14 +42,14 @@
   border-bottom: none !important;
 }
 .folder-icon {
-  color: var(--green-bright);
+  color: var(--peach);
 }
 
 .github-icon {
   margin-top: 9px;
 }
 .github-icon:hover {
-  color: var(--green-bright);
+  color: var(--peach);
 }
 
 .open-icon {
@@ -58,21 +58,21 @@
 
 .card-title {
   font-family: "NTR", sans-serif;
-  color: var(--navy);
+  color: var(--peach);
   font-size: 24px;
   font-weight: bold;
 }
 
 .card-desc {
   font-family: "NTR", sans-serif;
-  color: var(--navy);
+  color: var(--peach);
   font-size: 24px;
   padding-bottom: 40px;
 }
 
 .card-tech {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--black);
   font-size: 16px;
 }
 
@@ -105,30 +105,31 @@
   right: unset !important;
   left: 25% !important;
   user-select: none;
+  color: var(--peach);
 }
 
 .carousel-caption h3 {
   font-size: 60px;
   font-weight: bold;
-  color: #023E8A;
+  color: var(--peach);
 }
 
 .carousel-caption p {
   font-family: "NTR", sans-serif;
   font-weight: bold;
   font-size: 23px;
-  color: var(--lightest-slate);
+  color: #000000;
 }
 
 .carousel-caption p.techStack {
   font-family: "NTR", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: var(--green-bright);
+  color: #322f2f;
 }
 
 .carousel-indicators .active {
-  background-color: var(--green-bright);
+  background-color: var(--peach);
 }
 
 @media only screen and (max-width: 600px) {

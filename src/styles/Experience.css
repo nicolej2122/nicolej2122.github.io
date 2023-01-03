@@ -7,20 +7,20 @@
   font-family: "NTR", sans-serif;
   font-size: 28px;
   font-weight: bold;
-  color: var(--lightest-slate);
+  color: var(--black);
 }
 
 .joblist-job-company {
   font-family: "NTR", sans-serif;
   font-size: 28px;
-  color: var(--green-bright);
+  color: var(--peach);
   font-weight: bold;
 }
 
 .joblist-duration {
   font-family: "NTR", sans-serif;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--black);
 }
 
 #vertical-tabpanel {
@@ -37,23 +37,23 @@
 
 .MuiButtonBase-root {
   outline: none !important;
-  color: var(--lightest-slate) !important;
+  color: var(--black) !important;
 }
 
 .PrivateTabIndicator-colorSecondary-5 {
-  background-color: var(--green-bright) !important;
+  background-color: var(--peach) !important;
 }
 .jss5 {
-  background-color: var(--green-bright) !important;
+  background-color: var(--peach) !important;
 }
 .makeStyles-tabs-2 {
-  border-right: 1px solid var(--lightest-navy) !important;
+  border-right: 1px solid var(--light-peach) !important;
 }
 #experience .MuiTab-root {
   padding: 6px 20px;
 }
 .MuiButtonBase-root:focus {
-  color: var(--green-bright) !important;
+  color: var(--peach) !important;
 }
 
 ul {
@@ -63,7 +63,7 @@ ul {
 
 .job-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--peach);
   position: absolute;
   left: 0;
 }
@@ -73,7 +73,7 @@ ul {
   padding-left: 30px;
   padding-bottom: 16px;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--black);
 }
 
 .job-description {

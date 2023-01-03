@@ -19,8 +19,8 @@ html {
 }
 
 .App {
-  background-color: #1d3557;
-  display: flex;
+  background-color: #FFFFFF;
+  
   flex-direction: row;
   /* padding: 36px 76px; */
 }
@@ -29,7 +29,7 @@ html {
   pointer-events: none;
 }
 
-#content {
+.content {
   /* padding: 80px 200px; */
   width: 100vw;
   overflow-x: hidden;
@@ -40,7 +40,7 @@ html {
 }
 
 ::selection {
-  background: #6690CC; /* WebKit/Blink Browsers */
+  background: #CF8989; /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -69,12 +69,12 @@ html {
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: #6690CC;
+  background-color: #CF8989;
 }
 
 .section-title {
   font-family: "NTR", sans-serif;
-  color: #F1FAEE;
+  color: #CF8989;
   font-size: 46px;
   font-weight: bold;
 }

@@ -1,9 +1,17 @@
 import React from "react";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
+import Icon from '@mui/material/Icon';
+import DesignServicesIcon from '@mui/icons-material/DesignServices';
 
-
-
+function FigmaIcon() {
+  return (
+    <Icon
+    style={{  height: 30 }}>
+      <img src="./assets/figma.png" alt=""/>
+      
+    </Icon>
+  );
+}
 
 class ExternalLinks extends React.Component {
   constructor() {
@@ -22,15 +30,14 @@ class ExternalLinks extends React.Component {
   render() {
     return (
       <span className="external-links">
-        <a className="github-icon" href={this.props.githubLink}>
-          <GitHubIcon
-            style={{
-              fontSize: 20,
-              color: "var(--dark-navy)"
-            }}
-          ></GitHubIcon>
+        <a className="figma-icon" href={this.props.figmaLink}>
+        <DesignServicesIcon
+              style={{
+                fontSize: 25,
+                color: "var(--dark-navy)"
+              }}
+            ></DesignServicesIcon>
         </a>
-        
         {this.props.openLink && (
           <a className="open-icon" href={this.props.openLink}>
             <OpenInBrowserIcon

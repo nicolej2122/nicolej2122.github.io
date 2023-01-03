@@ -22,12 +22,12 @@
   position: relative;
   padding-left: 20px;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--black);
 }
 
 .about-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--peach);
   position: absolute;
   left: 0;
 }
@@ -39,7 +39,7 @@
 
 .about-description {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--black);
   max-width: 600px;
   font-size: 22px;
   text-align: justify;

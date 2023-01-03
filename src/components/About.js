@@ -50,7 +50,9 @@ class About extends React.Component {
       "C++",
       "Java",
       "Flutter",
-      "HTML & CSS"
+      "Node.js",
+      "React",
+      "Figma"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
