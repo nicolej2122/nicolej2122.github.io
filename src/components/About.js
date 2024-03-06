@@ -19,11 +19,23 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a Year 3  <b>Computer Science</b> major at the
+        I am a <b>Computer Science</b> graduate from the
         <a href="https://www.comp.nus.edu.sg/">
           {" "}
           National University of Singapore
-        </a>
+          {" "}
+        </a> 
+        and currently working as a software engineer at 
+        <a href="https://www.dell.com/en-sg/dt/corporate/about-us/who-we-are.htm">
+          {" "}
+          Dell Technologies
+          {" "}
+        </a> 
+        under the 
+        <a href="https://www.dell.com/en-in/dt/solutions/edge-computing/index.htm#collapse&tab0=0&tab1=0">
+          {" "}
+          Edge Portfolio and Solutions Group
+        </a> 
         . 
       </p>
     );
