@@ -83,24 +83,23 @@ const JobList = () => {
 
   const experienceItems = {
 
-"Dell Technologies": {
-  jobTitle: "Software Engineer @",
-  duration: "MAR 2024 - PRESENT",
-  desc: [
-    "Develop and maintain critical backend services within the Edge Portfolio and Solutions Group using Golang and SQL.",
-    "Lead feature development and optimize existing systems to enhance scalability, reliability, and performance.",
-    "Collaborate with product managers and engineers across teams to deliver end-to-end solutions that meet business needs."
-  ]
-},
-"Dell Technologies ": {
-  jobTitle: "Software Engineer Intern @",
-  duration: "MAY 2023 - AUG 2023",
-  desc: [
-    "Contributed to backend development for the Edge Portfolio and Solutions Group, improving system reliability and performance.",
-    "Implemented features using Golang and SQL, collaborating closely with cross-functional teams to deliver scalable solutions.",
-    "Participated in code reviews, testing, and deployment processes to ensure high-quality software delivery."
-  ]
-},
+    "Dell Technologies": {
+      jobTitle: "Software Engineer @",
+      duration: "MAR 2024 - PRESENT",
+      desc: [
+        "Contribute to backend development for edge computing storage solutions, focusing on reliability and scalability.",
+        "Work with Golang and SQL to build and optimize key system features.",
+        "Collaborate with cross-functional teams to deliver impactful and robust software."
+      ]
+    },
+    "Dell Technologies ": {
+      jobTitle: "Software Engineer Intern @",
+      duration: "MAY 2023 - AUG 2023",
+      desc: [
+        "Developed full-stack microservices to automate vSphere virtual machine creation, modification, health checks, and troubleshooting using Python (FastAPI), React.js, vSphere API, Jenkins, InfluxDB, and Docker.",
+        "Created a DevOps portal dashboard that enabled developers to effortlessly access detailed information for their virtual machines, streamlining development cycle times using Python (FastAPI), React.js, Docker, and InfluxDB."
+      ]
+    },
     PhillipNova: {
       jobTitle: "Software Development Intern @",
       duration: "MAY 2022 - AUG 2022",

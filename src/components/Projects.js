@@ -39,7 +39,7 @@ class Projects extends React.Component {
         link: "https://github.com/nicolej2122/tp",
         open: "https://ay2122s1-cs2103t-f12-2.github.io/tp/",
         image: "../assets/internwatcher.png"
-      }, 
+      },
       "FineSpine": {
         title: "finespine",
         desc:

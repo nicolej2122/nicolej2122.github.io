@@ -6,9 +6,9 @@ import DesignServicesIcon from '@mui/icons-material/DesignServices';
 function FigmaIcon() {
   return (
     <Icon
-    style={{  height: 30 }}>
-      <img src="./assets/figma.png" alt=""/>
-      
+      style={{ height: 30 }}>
+      <img src="./assets/figma.png" alt="" />
+
     </Icon>
   );
 }
@@ -31,12 +31,12 @@ class ExternalLinks extends React.Component {
     return (
       <span className="external-links">
         <a className="figma-icon" href={this.props.figmaLink}>
-        <DesignServicesIcon
-              style={{
-                fontSize: 25,
-                color: "var(--dark-navy)"
-              }}
-            ></DesignServicesIcon>
+          <DesignServicesIcon
+            style={{
+              fontSize: 25,
+              color: "var(--dark-navy)"
+            }}
+          ></DesignServicesIcon>
         </a>
         {this.props.openLink && (
           <a className="open-icon" href={this.props.openLink}>

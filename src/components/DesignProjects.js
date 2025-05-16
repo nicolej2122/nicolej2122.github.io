@@ -47,7 +47,7 @@ class DesignProjects extends React.Component {
     return (
       <div id="designprojects">
         <div className="section-header ">
-        <span className="section-title">/ design-creations</span>
+          <span className="section-title">/ design-creations</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (

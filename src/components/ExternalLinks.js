@@ -30,7 +30,7 @@ class ExternalLinks extends React.Component {
             }}
           ></GitHubIcon>
         </a>
-        
+
         {this.props.openLink && (
           <a className="open-icon" href={this.props.openLink}>
             <OpenInBrowserIcon

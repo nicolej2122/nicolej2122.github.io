@@ -24,25 +24,25 @@ class About extends React.Component {
           {" "}
           National University of Singapore
           {" "}
-        </a> 
-        and currently working as a software engineer at 
+        </a>
+        and currently working as a software engineer at
         <a href="https://www.dell.com/en-sg/dt/corporate/about-us/who-we-are.htm">
           {" "}
           Dell Technologies
           {" "}
-        </a> 
-        under the 
+        </a>
+        under the
         <a href="https://www.dell.com/en-in/dt/solutions/edge-computing/index.htm#collapse&tab0=0&tab1=0">
           {" "}
           Edge Portfolio and Solutions Group
-        </a> 
-        . 
+        </a>
+        .
       </p>
     );
     const two = (
       <p>
         Outside of work, I enjoy staying active and keeping fit, with a focus on strength training and healthy eating.
-     </p>
+      </p>
     );
     const three = (
       <p>
