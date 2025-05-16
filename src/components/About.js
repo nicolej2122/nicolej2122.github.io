@@ -41,8 +41,7 @@ class About extends React.Component {
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also build terrariums and love cafe-hopping.
+        Outside of work, I enjoy staying active and keeping fit, with a focus on strength training and healthy eating.
      </p>
     );
     const three = (
@@ -57,11 +56,11 @@ class About extends React.Component {
     const desc_items = [one, two, three];
 
     const tech_stack = [
-      "C",
+      "Golang",
       "Python",
       "C++",
       "Java",
-      "Flutter",
+      "SQL",
       "Node.js",
       "React",
       "Figma"

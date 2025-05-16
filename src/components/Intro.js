@@ -32,10 +32,9 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I create stuff sometimes.</div>
+          <div className="intro-subtitle">I like building things behind the scenes.</div>
           <div className="intro-desc">
-            I'm a software engineer based in Singapore. I have great
-            interest in full-stack development, human-computer interactions, and everything in between.
+            I’m a software engineer based in Singapore, passionate about crafting powerful backend systems that drive seamless experiences.
           </div>
           <a
             href="mailto:nicole.joseph2122@gmail.com"
